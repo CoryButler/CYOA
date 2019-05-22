@@ -1,0 +1,7 @@
+C:\Users\csb\Desktop\CYOA\CYOA\bin\Release\Data\0.txt
+C:\Users\csb\Desktop\CYOA\CYOA\bin\Release\CYOA.exe.config
+C:\Users\csb\Desktop\CYOA\CYOA\bin\Release\CYOA.exe
+C:\Users\csb\Desktop\CYOA\CYOA\bin\Release\CYOA.pdb
+C:\Users\csb\Desktop\CYOA\CYOA\obj\Release\CYOA.csproj.CoreCompileInputs.cache
+C:\Users\csb\Desktop\CYOA\CYOA\obj\Release\CYOA.exe
+C:\Users\csb\Desktop\CYOA\CYOA\obj\Release\CYOA.pdb

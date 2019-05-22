@@ -1,0 +1,8 @@
+You stroll into the bustling village of Davern.
+There is a shop off to the left.
+===
+Will you visit the shop?
+Yes
+1
+No
+0
