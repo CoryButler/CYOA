@@ -5,3 +5,10 @@ C:\Users\csb\Desktop\CYOA\CYOA\obj\Debug\CYOA.csprojAssemblyReference.cache
 C:\Users\csb\Desktop\CYOA\CYOA\obj\Debug\CYOA.csproj.CoreCompileInputs.cache
 C:\Users\csb\Desktop\CYOA\CYOA\obj\Debug\CYOA.exe
 C:\Users\csb\Desktop\CYOA\CYOA\obj\Debug\CYOA.pdb
+C:\Users\csb\Desktop\CYOA\bin\Debug\CYOA.exe.config
+C:\Users\csb\Desktop\CYOA\bin\Debug\CYOA.exe
+C:\Users\csb\Desktop\CYOA\bin\Debug\CYOA.pdb
+C:\Users\csb\Desktop\CYOA\obj\Debug\CYOA.csprojAssemblyReference.cache
+C:\Users\csb\Desktop\CYOA\obj\Debug\CYOA.csproj.CoreCompileInputs.cache
+C:\Users\csb\Desktop\CYOA\obj\Debug\CYOA.exe
+C:\Users\csb\Desktop\CYOA\obj\Debug\CYOA.pdb

@@ -45,10 +45,11 @@
     <Compile Include="Menu.cs" />
     <Compile Include="MenuChoice.cs" />
     <Compile Include="Passage.cs" />
-    <Compile Include="Player.cs" />
+    <Compile Include="PasswordMenu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Settings.cs" />
+    <Compile Include="StringExentions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

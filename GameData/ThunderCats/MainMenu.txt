@@ -1,0 +1,10 @@
+ThunderCats: Day of Division
+Written by Cory Butler
+===
+
+New Game
+0/0
+Enter Password
+Password
+Quit
+ERROR

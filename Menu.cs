@@ -7,12 +7,14 @@ namespace CYOA
     {
         private string _prompt;
         private List<MenuChoice> _choices;
+
         public Menu(string prompt, List<MenuChoice> choices)
         {
             _prompt = prompt;
             _choices = choices;
         }
-        public string Display()
+
+        public virtual string Display()
         {
             Settings.Color(FontColor.DEFAULT);
             Console.WriteLine(_prompt);
@@ -25,7 +27,7 @@ namespace CYOA
                 {
                     if (currentChoiceIndex == i)
                     {
-                        Settings.Color(FontColor.DEFAULT);
+                        Settings.Color(FontColor.SELECTION);
                         Console.Write("> ");
                     }
                     else
@@ -36,7 +38,7 @@ namespace CYOA
                     Console.WriteLine(_choices[i].Text);
                     Settings.Color(FontColor.MENU);
                 }
-
+                
                 switch (Console.ReadKey(true).Key)
                 {
                     case ConsoleKey.UpArrow:
@@ -54,7 +56,7 @@ namespace CYOA
                 if (!isChoiceConfirmed) Console.CursorTop -= _choices.Count;
             }
 
-            return _choices[currentChoiceIndex].Link;
+            return "./" + _choices[currentChoiceIndex].Link;
         }
     }
 }
