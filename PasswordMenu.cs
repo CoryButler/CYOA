@@ -31,9 +31,6 @@ namespace CYOA
             }
 
             var seed = elements[0];
-            elements.RemoveAt(0);
-
-            elements.Reverse();
 
             StringBuilder sb = new StringBuilder();
             foreach (var e in elements)
@@ -42,7 +39,7 @@ namespace CYOA
                 if (value < 0) value += 10;
                 sb.Append(value + "/");
             }
-            sb.Remove(sb.Length - 1, 1);
+            sb.Append("0");
 
             var path = sb.ToString();
 

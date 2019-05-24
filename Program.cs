@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 
 namespace CYOA
 {
@@ -9,21 +10,22 @@ namespace CYOA
             Console.CursorVisible = false;
             string link = "GameData/MainMenu";
 
-            while (link != "ERROR")
+            while (File.Exists(link +".txt"))
             {
-                try
+                Console.Clear();
+                MainMenu mainMeanu = new MainMenu();
+                var foldername = mainMeanu.Display();
+                if (!Directory.Exists("GameData/" + foldername)) break;
+                if (!File.Exists("GameData/" + foldername + "/MainMenu.txt"))
                 {
-                    Console.Clear();
-                    Passage passage = new Passage(link + ".txt");
-                    link = (link + passage.Display()).ParsePath();
-                }
-                catch
-                {
-                    int seed = new Random().Next(10);
-                    var password = "#####";
-                    Passage passage = new Passage($"GAME OVER\n\nPassword: {password}", null);
-                    link = passage.Display();
+                    Settings.Color(FontColor.DEFAULT);
+                    Console.WriteLine($"\nSorry, \"{foldername}\" is not formatted properly.\n\nPress ENTER to select a different story.");
                     Console.ReadLine();
+                }
+                else
+                {
+                    Story story = new Story(foldername);
+                    story.Start();
                 }
             }
         }
