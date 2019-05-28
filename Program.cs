@@ -8,7 +8,6 @@ namespace CYOA
         static void Main(string[] args)
         {
             Console.CursorVisible = false;
-            var link = true;
 
             var foldername = "";
 
@@ -17,6 +16,8 @@ namespace CYOA
                 Console.Clear();
                 MainMenu mainMeanu = new MainMenu();
                 foldername = mainMeanu.Display();
+
+                if (foldername == "?") return;
 
                 if (!File.Exists("GameData/" + foldername + "/MainMenu.txt"))
                 {

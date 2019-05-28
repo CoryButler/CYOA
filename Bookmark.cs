@@ -8,14 +8,14 @@ namespace CYOA
 {
     public static class Bookmark
     {
-        public static string ToBookmark(string path)
+        public static string ToBookmark(string path, string root)
         {
             string password = string.Empty;
             int seed = new Random().Next(1, 10);
             path = path.Substring(0, path.LastIndexOf('/')); // get current folder
             path = path.Substring(0, path.LastIndexOf('/')); // get parent folder
 
-            var chars = path.Replace("GameData", "").Replace("ThunderCats", "").Replace("/", "");
+            var chars = path.Replace("GameData", "").Replace(root, "").Replace("/", "");
             if (chars.Length > 0)
             {
                 List<int> ints = new List<int>();

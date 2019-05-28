@@ -19,15 +19,19 @@ namespace CYOA
                 Passage passage = new Passage(link + ".txt");
                 link = (link + passage.Display()).ParsePath();
             }
+
+            if (link.Substring(link.LastIndexOf('/') + 1) != "ERROR")
+            {
                 Console.Clear();
 
-            var bookmarkCode = Bookmark.ToBookmark(link);
-            string message = "Game Over";
-            message += bookmarkCode != "" ? $"\n\nBookmark Code: {bookmarkCode}" : "";
+                var bookmarkCode = Bookmark.ToBookmark(link, _root);
+                string message = "Game Over";
+                message += bookmarkCode != "" ? $"\n\nBookmark Code: {bookmarkCode}" : "";
 
-            Passage p = new Passage(message, null);
-            link = p.Display();
-            Console.ReadLine();
+                Passage p = new Passage(message, null);
+                link = p.Display();
+                Console.ReadLine();
+            }
         }
     }
 }
