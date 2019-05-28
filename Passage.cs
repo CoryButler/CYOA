@@ -9,10 +9,10 @@ namespace CYOA
     {
         private const string _menuDelimiter = "===";
         private const string _passwordDelimiter = "***";
-        public readonly string Text;
-        public readonly Menu Menu;
+        private readonly string Text;
+        private readonly IMenu Menu;
 
-        public Passage(string text, Menu menu)
+        public Passage(string text, IMenu menu)
         {
             Text = text;
             Menu = menu;
@@ -66,7 +66,7 @@ namespace CYOA
             return new Menu(prompt, choices);
         }
 
-        private Menu BuildPassword(string filepath)
+        private IMenu BuildPassword(string filepath)
         {
             return new PasswordMenu(filepath);
         }

@@ -1,7 +1,0 @@
-Welcome to the CYOA Engine!
-===
-Which story would you like to play?
-ThunderCats
-ThunderCats/MainMenu
-Quit
-ERROR

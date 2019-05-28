@@ -8,14 +8,16 @@ namespace CYOA
         static void Main(string[] args)
         {
             Console.CursorVisible = false;
-            string link = "GameData/MainMenu";
+            var link = true;
 
-            while (File.Exists(link +".txt"))
+            var foldername = "";
+
+            while (foldername != "?")
             {
                 Console.Clear();
                 MainMenu mainMeanu = new MainMenu();
-                var foldername = mainMeanu.Display();
-                if (!Directory.Exists("GameData/" + foldername)) break;
+                foldername = mainMeanu.Display();
+
                 if (!File.Exists("GameData/" + foldername + "/MainMenu.txt"))
                 {
                     Settings.Color(FontColor.DEFAULT);
@@ -25,7 +27,6 @@ namespace CYOA
                 else
                 {
                     Story story = new Story(foldername);
-                    story.Start();
                 }
             }
         }

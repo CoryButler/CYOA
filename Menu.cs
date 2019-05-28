@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace CYOA
 {
-    public class Menu
+    public class Menu : IMenu
     {
         private string _prompt;
         private List<MenuChoice> _choices;
@@ -14,7 +14,7 @@ namespace CYOA
             _choices = choices;
         }
 
-        public virtual string Display()
+        public string Display()
         {
             Settings.Color(FontColor.DEFAULT);
             Console.WriteLine(_prompt);

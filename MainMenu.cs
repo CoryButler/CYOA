@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace CYOA
 {
-    public class MainMenu : Menu
+    public class MainMenu : IMenu
     {
         private string _prompt;
         private List<MenuChoice> _choices;
 
-        public MainMenu(string prompt = "", List<MenuChoice> choices = null) : base(prompt, choices)
+        public MainMenu()
         {
-            _prompt = "Welcome to the CYOA Engine!";
             var directories = Directory.GetDirectories("GameData").ToList();
+            _prompt = "Welcome to the CYOA Engine!";
             if (directories.Count == 0) _prompt += "\n\nSorry, there are no stories available.";
             else
             {
+                _prompt += $" There are {directories.Count} stories on the bookshelf.\n\nWhich story would you like to play?";
                 _choices = new List<MenuChoice>();
                 var i = 0;
                 foreach (var directory in directories)
@@ -30,7 +31,7 @@ namespace CYOA
             }
         }
 
-        public override string Display()
+        public string Display()
         {
             Settings.Color(FontColor.DEFAULT);
             Console.WriteLine(_prompt);
