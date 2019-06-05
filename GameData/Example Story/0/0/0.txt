@@ -5,4 +5,4 @@ What do you want to learn about?
 Going back to the previous choice
 0/0
 Multi-page sections
-0/1
+1/0
