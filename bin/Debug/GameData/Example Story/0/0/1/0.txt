@@ -1,0 +1,2 @@
+To spread a story section over multiple pages, add no menu to the TXT file.
+The next page will be loaded when the reader selects Continue.

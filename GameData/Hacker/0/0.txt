@@ -1,0 +1,10 @@
+The terminal is now connected to the RL-Network.
+Logged in as cellmaintenance->dawnburns.
+===
+User Permissions:
+Manage Cells
+0/0
+Message Center
+1/0
+Log Out
+../0

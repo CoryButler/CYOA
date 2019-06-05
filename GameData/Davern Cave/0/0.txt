@@ -1,0 +1,7 @@
+Churl: Hello! Let's make a fake choice.
+===
+Are you a boy or a girl?
+boy
+0/0
+girl
+0/0

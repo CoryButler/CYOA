@@ -18,6 +18,9 @@ namespace CYOA
                 Console.Clear();
                 Passage passage = new Passage(link + ".txt");
                 link = (link + passage.Display()).ParsePath();
+
+                if (!File.Exists(link + ".txt"))
+                    link = link.Substring(0, link.LastIndexOf("/")) + "/MainMenu";
             }
 
             if (link.Substring(link.LastIndexOf('/') + 1) != "ERROR")

@@ -1,0 +1,15 @@
+Message Center
+===
+
+terrywalker: vending credits raffle
+0/0
+taylormccoy: c55 lock issue resolved
+1/0
+terrywalker: inhouse vending
+2/0
+taylormccoy: rln log out issue PS
+3/0
+taylormccoy: rln log out issue
+4/0
+Exit
+../

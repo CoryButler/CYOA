@@ -12,7 +12,9 @@ namespace CYOA
         {
             string password = string.Empty;
             int seed = new Random().Next(1, 10);
+            if (path.Contains("/"))
             path = path.Substring(0, path.LastIndexOf('/')); // get current folder
+            if (path.Contains("/"))
             path = path.Substring(0, path.LastIndexOf('/')); // get parent folder
 
             var chars = path.Replace("GameData", "").Replace(root, "").Replace("/", "");

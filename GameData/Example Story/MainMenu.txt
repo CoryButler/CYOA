@@ -1,0 +1,9 @@
+Example Game
+===
+[this is a menu]
+New Game
+0/0
+Use Bookmark
+Bookmark
+Quit
+ERROR

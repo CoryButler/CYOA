@@ -1,0 +1,1 @@
+If the current TXT file is 1.txt, it will load 2.txt.

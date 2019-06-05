@@ -1,0 +1,8 @@
+To allow the player to make a real choice, set the path below each option
+to a unique location.
+===
+What do you want to learn about?
+Going back to the previous choice
+0/0
+Multi-page sections
+0/1

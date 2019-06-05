@@ -1,0 +1,12 @@
+If you work like to make the reader feel they have made a choice
+when the really haven't, set the path below each option to the same location.
+
+The path is relative to the current TXT files location.
+===
+What is your favorite color?
+Red
+0/0
+Green
+0/0
+Blue
+0/0

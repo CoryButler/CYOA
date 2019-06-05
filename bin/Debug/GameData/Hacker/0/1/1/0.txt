@@ -1,0 +1,18 @@
+From: taylormccoy
+To: cellmaintenance
+Date: 02111988
+Subject: c55 lock issue resolved
+
+All,
+
+The cling-lock issue with cell 55 has been resolved. The cell has been scrubbed. Off-site has been deployed.
+Status updates on resident 55 to come.
+
+We'll be in contact with cling-lock to assess the status of all cells.
+
+Taylor McCoy
+Head of Cell Maintenance
+===
+
+Close Message
+../

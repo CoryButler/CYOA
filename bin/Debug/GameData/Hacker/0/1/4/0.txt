@@ -1,0 +1,16 @@
+From: taylormccoy
+To: dawnburns, davidbrenner
+Date: 01271988
+Subject: rln log out issue
+
+Dawn,
+
+David in staff maintenance caught that your password had not been voided out after work last night.
+When you log out of the network, you've got to void out the password field. Don't let this happen again.
+
+Taylor McCoy
+Head of Cell Maintenance
+===
+
+Close Message
+../

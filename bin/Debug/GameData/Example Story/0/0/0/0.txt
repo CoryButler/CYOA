@@ -1,0 +1,5 @@
+To go back to the previous choice, set the path to "../".
+===
+
+Go back to previous choice.
+../
