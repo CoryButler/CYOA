@@ -1,2 +1,2 @@
 When the program cannot find any more content, the story ends.
-Select continue to test is.
+Select continue to test it.

@@ -1,8 +1,0 @@
-Churl: Thanks for telling me.  This has affected the game in no way.
-Now, let's make a real choice.
-===
-Which door will you enter?
-blue door
-0/0
-red door
-0/1

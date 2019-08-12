@@ -6,4 +6,4 @@ New Game
 Use Bookmark
 Bookmark
 Quit
-ERROR
+../

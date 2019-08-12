@@ -7,4 +7,4 @@ New Game
 Use Bookmark
 Password
 Quit
-ERROR
+../
