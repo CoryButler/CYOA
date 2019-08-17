@@ -1,16 +1,17 @@
-It was a warm, sunny day on Third Earth. The ThunderCats were enjoying lunch inside the Cats' Lair.
-Then, a signal rang out in the control room.
+It was a warm, sunny day on Third Earth. Snarf had spent the
+morning preparing a delicious lunch for the other ThunderCats.
+Now, he was one his way to the Berbil Village to gather some
+candy fruit for dessert. The ThunderCats were enjoying the lunch
+inside the Cats' Lair. Then, a signal rang out in the control room.
 ===
 Who will check the scanners?
-Lion-o
-0/0
-Tygra
-1/0
 Cheetara
 2/0
+Tygra
+1/0
 Wilykit and Wilykat
 3/0
 Panthro
 4/0
-Snarf
-5/0
+Lion-o
+0/0
